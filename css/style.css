@@ -1,0 +1,124 @@
+body {
+  min-width: 320px;
+  margin: 0;
+  padding: 0;
+
+  font-family: 'Rajdhani', sans-serif;
+  color: #FEF9E7;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: normal;
+  font-style: normal;
+
+  background-color: #171f24;
+}
+
+.visually-hidden:not(:focus):not(:active),
+input[type="checkbox"].visually-hidden,
+input[type="radio"].visually-hidden {
+  position: absolute;
+
+  width: 1px;
+  height: 1px;
+
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.page-main {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#particles-js {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: #171f24;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 auto;
+  padding: 0 15px;
+
+  text-align: center;
+  z-index: 1;
+}
+
+.title {
+  margin: 0;
+  margin-bottom: 20px;
+  font-size: 52px;
+  line-height: 56px;
+}
+
+.description {
+  font-size: 28px;
+  line-height: 32px;
+}
+
+.social {
+  align-self: center;
+  max-width: 400px;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+  margin: 0;
+  margin-top: 20px;
+  padding: 0;
+
+  list-style: none;
+}
+
+.social__link {
+  display: block;
+
+  width: 45px;
+  height: 45px;
+
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.social__link:hover,
+.social__link:focus {
+  opacity: 0.7;
+}
+
+.social__link:active {
+  opacity: 0.5;
+}
+
+.social__link--github {
+  background-image: url("../img/github-logo.svg");
+}
+
+.social__link--linkedin {
+  background-image: url("../img/linkedin-logo.svg");
+}
+
+.social__link--instagram {
+  background-image: url("../img/instagram-logo.svg");
+}
+
+.social__link--telegram {
+  background-image: url("../img/telegam-logo.svg");
+}
+
+.social__link--mail {
+  background-image: url("../img/mail-logo.svg");
+}
